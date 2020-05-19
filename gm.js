@@ -6,35 +6,12 @@ function generateMark(data) {
 
   fs.writeFile(
     filename,
-     "[![GitHub version](https://badge.f)](https://github.com/Naereen/StrapDown.js)"
-      +
-      "\n,\n"
-      + 
-      "#"
-       +
-      data.title +
-      "\n" +
-      "#Description" +
-      "\n" +
-      data.description +
-      "\n" +
-      `[${data.tableOfContents}]` +
-      "\n" +
-      "#Installation" +
-      "\n" +
-      data.installation +
-      "\n" +
-      "##Credits" +
-      "\n" +
-      data.credits +
-      "\n" +
-      "##Usage" +
-      "\n" +
-      data.usage +
-      "\n" +
-      "##License" +
-      "\n" +
-      data.license,
+
+    ` [![Generic badge](https://img.shields.io/badge/<Github>-<Repo>-<COLOR>.svg)](https://github.com/Rafquadros22) \n\n ${"# " + data.title} \n\n [${data.tableOfContents[0]}] \n [${data.tableOfContents[1]}] \n [${data.tableOfContents[2]}] \n [${ data.tableOfContents[3]}]
+      \n\n ## Description \n ${data.description} \n\n ## Installation \n ${data.installation} \n\n ## Credits \n ${data.credits} \n\n ## Usage \n ${data.usage} \n\n ## License \n ${data.license}
+    `,
+
+
     function (err) {
       if (err) {
         return console.log(err);
