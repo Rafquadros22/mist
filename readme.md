@@ -1,11 +1,14 @@
- [![Generic badge](https://img.shields.io/badge/<Github>-<Repo>-<COLOR>.svg)](https://github.com/Rafquadros22) 
+ [![Generic badge](https://img.shields.io/badge/<Github>-<Repo>-<COLOR>.svg)](https://github.com/Rafquadros22)
 
- # LOREM 
+# LOREM
 
- [Installation](#Installation) 
- [Usage] 
- [Credits] 
- [License]
+[Installation](#Installation)
+
+[Usage](#Usage)
+
+[Credits](#Credits)
+
+[License](#License)
       
 
  ## Description 
