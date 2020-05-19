@@ -8,7 +8,7 @@ function generateMark(data) {
     filename,
      "[![GitHub version](https://badge.f)](https://github.com/Naereen/StrapDown.js)"
       +
-      "\n"
+      "\n,\n"
       + 
       "#"
        +
