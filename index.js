@@ -46,6 +46,21 @@ inquirer
       message:
         "The last section of a good README is a license. If you need help choosing a license, use https://choosealicense.com/",
     },
+  
+    {
+      type: "input",
+      name: "githubImage",
+      message:
+        "Add your github profile image url.",
+    },
+  
+    {
+      type: "input",
+      name: "githubUserName",
+      message:
+        "Add your github user name.",
+    }
+  
   ])
 
   .then(function (data) {
