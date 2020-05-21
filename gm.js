@@ -18,9 +18,9 @@ function generateMark(data) {
       data.installation
     } \n\n ## Credits \n ${data.credits} \n\n ## Usage \n ${
       data.usage
-    } \n\n ## License \n ${data.license} \n\n ### GithubImage \n ![githubimage](${
+    } \n\n ## License \n ${data.license} \n\n ### GithubProfileImage \n ![githubimage](${
       data.githubImage
-    }) \n\n ### GithubUsername \n ${data.githubUserName} 
+    }) \n ### GithubUsername:${data.githubUserName} 
 
     `,
 
