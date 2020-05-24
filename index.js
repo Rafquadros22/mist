@@ -7,6 +7,13 @@ const generateMark = require("./gm");
 inquirer
   .prompt([
     {
+      type:"ïnput",
+      name:"githubUrl",
+      message:"Add your github url for a badge."
+     
+    },
+
+    {
       type: "input",
       name: "title",
       message: "What would you like the title to be?",
@@ -33,7 +40,7 @@ inquirer
       type: "input",
       name: "credits",
       message:
-        "List your collaborators, if any, with links to their GitHub profiles If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.If you followed tutorials, include links to those here as well.",
+        "List your collaborators, if any, with links to their GitHub profiles If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section. Include links to those here as well.",
     },
 
     {

@@ -1,13 +1,14 @@
 function generateMark(data) {
   const fs = require("fs");
-  var filename = "README".toLowerCase().split(" ").join("") + ".md";
+ 
+  let filename = "README".toLowerCase().split(" ").join("") + ".md";
 
   // console.log(data.username);
 
   fs.writeFile(
     filename,
 
-    ` [![Generic badge](https://img.shields.io/badge/Github-Repo-<COLOR>.svg)](https://github.com/Rafquadros22)\n\n${
+    ` [![Generic badge](https://img.shields.io/badge/Github-Repo-<COLOR>.svg/?style=social&logo=appveyor)](${data.githubUrl})\n\n${
       "# " + data.title
     }\n\n[${data.tableOfContents[0]}](#Installation)\n\n[${
       data.tableOfContents[1]
@@ -18,10 +19,12 @@ function generateMark(data) {
       data.installation
     } \n\n ## Credits \n ${data.credits} \n\n ## Usage \n ${
       data.usage
-    } \n\n ## License \n ${data.license} \n\n ### GithubProfileImage \n ![githubimage](${
+    } \n\n ## License \n ${
+      data.license
+    } \n\n ### GithubProfileImage \n ![githubimage](${
       data.githubImage
     }) \n ### GithubUsername:${data.githubUserName} 
-
+      
     `,
 
     function (err) {
