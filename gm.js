@@ -8,7 +8,7 @@ function generateMark(data) {
   fs.writeFile(
     filename,
 
-    ` [![Generic badge](https://img.shields.io/badge/Github-Repo-<COLOR>.svg/?style=social&logo=appveyor)](${data.githubUrl})\n\n${
+    ` [![Generic badge](https://img.shields.io/badge/Github-Profile-<COLOR>.svg)](${data.githubUrl})\n\n${
       "# " + data.title
     }\n\n[${data.tableOfContents[0]}](#Installation)\n\n[${
       data.tableOfContents[1]
