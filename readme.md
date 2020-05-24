@@ -1,4 +1,4 @@
- [![Generic badge](https://img.shields.io/badge/Github-Repo-<COLOR>.svg/?style=social&logo=appveyor)(https://github.com/Rafquadros22)
+ [![Generic badge](https://img.shields.io/badge/Github-Repo-<COLOR>.svg/?style=social&logo=appveyor)](https://github.com/Rafquadros22)
 
 # READ ME GENERATOR
 
